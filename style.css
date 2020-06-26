@@ -1,0 +1,31 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 2em;
+  background-color: #ECE9E9;
+}
+
+h1 {
+  font-style: bold;
+  color: #574C4C;
+}
+
+h2 {
+  margin-top: 2em; 
+  color: #574C4C
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+  
+.answer-choice img {
+  height: 10em;
+  margin-right: 1em;
+}
+.answer-choice{
+  text-align: center;
+}
+
