@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,500&display=swap" rel="stylesheet">
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+
+  </head>
+
+  <body>
+    <h1>Plan your summer and I’ll tell you which sci-fi book you belong in.</h1>
+
+    <h2>Pick somewhere to go:</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fcamping.jpg?v=1592418725049"
+        />
+        <br />
+        <button id="q1a1">Camping In the Woods</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fcity.jpg?v=1592418754373"
+        />
+        <br />
+        <button id="q1a2">The City</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fbackpacking.jpg?v=1592418817026"
+        />
+        <br />
+        <button id="q1a3">Backpacking Trip</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fsummer%20camp.jpg?v=1592418927567"
+        />
+        <br />
+        <button id="q1a4">Sleepaway Camp</button>
+      </div>
+    </div>
+
+    <h2>Where's the best place to swim?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Focean.jpg?v=1592419122303"
+        />
+        <br />
+        <button id="q2a1">The Ocean</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fpool.jpg?v=1592419330139"
+        />
+        <br />
+        <button id="q2a2">A Pool</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Flake.jpg?v=1592419285623"
+        />
+        <br />
+        <button id="q2a3">A Lake</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fland.jpg?v=1592419227421"
+        />
+        <br />
+        <button id="q2a4">I prefer dry land</button>
+      </div>
+    </div>
+
+    <h2>Pick your favorite summer activity:</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Ffriends.jpg?v=1592419406808"
+        />
+        <br />
+        <button id="q3a1">Spending time with friends</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Flearning.jpg?v=1592419454471"
+        />
+        <br />
+        <button id="q3a2">Learning something new</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fhiking.jpg?v=1592419486088"
+        />
+        <br />
+        <button id="q3a3">Outdoor activites (hiking, biking, etc.)</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fmischief.jpg?v=1592419630474"
+        />
+        <br />
+        <button id="q3a4">Getting into mischief</button>
+      </div>
+    </div>
+
+     <h2>Pick your favorite way to escape the heat:</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2FAC.jpg?v=1592504299100"
+        />
+        <br />
+        <button id="q4a1">Air conditioning</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fswim.jpg?v=1592505127890"
+        />
+        <br/>
+        <button id="q4a2">Swimming</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Fshade.jpg?v=1592504950683"
+        />
+        <br />
+        <button id="q4a3">Sitting in the cool shade</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7655db51-063b-4937-b8e0-22d8f2c72e66%2Ficecream.jpg?v=1592504734902"
+        />
+        <br />
+        <button id="q4a4">Ice Cream</button>
+      </div>
+    </div>
+    
+    <h2>Pick your favorite summer song:</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <iframe src="https://www.youtube.com/embed/F9gJGtiG6oI?start=85" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <br />
+        <button id="q5a1">Summertime Sadness by Lana Del Rey</button>
+      </div>
+      <div class="answer-choice">
+        <iframe src="https://www.youtube.com/embed/fHI8X4OXluQ?start=49" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <br/>
+        <button id="q5a2">Blinding Lights by The Weekend</button>
+      </div>
+      <div class="answer-choice">
+        <iframe src="https://www.youtube.com/embed/9f06QZCVUHg?start=80" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <br />
+        <button id="q5a3">Summer of '69 by Bryan Adams'</button>
+      </div>
+      <div class="answer-choice">
+        <iframe src="https://www.youtube.com/embed/0C3zgYW_FAM?start=35" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <br />
+        <button id="q5a4">Island in the Sun by Weezer</button>
+      </div>
+    </div>
+    
+    
+    <div class="result">
+      <h2 id="result">You belong in...</h2>
+    </div>
+    
+    <div>
+      <button id="restart">
+        Restart
+      </button>
+    </div>
+  </body>
+</html>
